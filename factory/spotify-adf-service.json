@@ -1,0 +1,15 @@
+{
+	"name": "spotify-adf-service",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "adbad53f-0d86-404c-9b86-ce22a89f0e93",
+		"tenantId": "a086761b-98dc-473f-9e24-af3152683756"
+	}
+}
