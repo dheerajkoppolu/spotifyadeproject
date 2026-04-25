@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "azuresql_to_adlsbronze",
@@ -323,31 +327,31 @@
 						"schema": "dbo",
 						"table": "DimUser",
 						"cdc_col": "updated_at",
-						"from_date": ""
+						"fromDate": ""
 					},
 					{
 						"schema": "dbo",
 						"table": "DimTrack",
 						"cdc_col": "updated_at",
-						"from_date": ""
+						"fromDate": ""
 					},
 					{
 						"schema": "dbo",
 						"table": "DimDate",
 						"cdc_col": "date",
-						"from_date": ""
+						"fromDate": ""
 					},
 					{
 						"schema": "dbo",
 						"table": "DimArtist",
 						"cdc_col": "updated_at",
-						"from_date": ""
+						"fromDate": ""
 					},
 					{
 						"schema": "dbo",
 						"table": "FactStream",
 						"cdc_col": "stream_timestamp",
-						"from_date": ""
+						"fromDate": ""
 					}
 				]
 			}
