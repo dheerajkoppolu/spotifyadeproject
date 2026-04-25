@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotify-adf-service"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureSQLDB_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://spotifyadlsaccount.dfs.core.windows.net/"
+		},
+		"AzureSQLDB_properties_typeProperties_server": {
+			"value": "spotifyserver2026.database.windows.net"
+		},
+		"AzureSQLDB_properties_typeProperties_database": {
+			"value": "spotify"
+		},
+		"AzureSQLDB_properties_typeProperties_userName": {
+			"value": "Azureuser"
+		}
+	}
+}
